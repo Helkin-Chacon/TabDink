@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TabDink.MainPage"
+             xmlns:utils="clr-namespace:TabDink.Utils;assembly=TabDink"
+             xmlns:tabView="clr-namespace:Syncfusion.XForms.TabView;assembly=Syncfusion.SfTabView.XForms" xmlns:local="clr-namespace:TabDink" xmlns:navigation="clr-namespace:Syncfusion.SfNavigationDrawer.XForms;assembly=Syncfusion.SfNavigationDrawer.XForms">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <OnPlatform x:TypeArguments="x:String" x:Key="fontfamily" iOS="fontdink" Android="Font/fontdink.ttf" />
+    
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <Grid>
+
+            <navigation:SfNavigationDrawer x:Name="navigationDrawer1" BackgroundColor="White" TouchThreshold="100" Position="Left" DrawerWidth="200" DrawerHeaderHeight="50" DrawerFooterHeight="50">
+
+                                    <navigation:SfNavigationDrawer.DrawerHeaderView>
+                                        <Grid x:Name="headerLayout" BackgroundColor="#1aa1d6" >
+                                            <Label x:Name="header"  Text="Header View" FontSize="14" TextColor="White"  VerticalTextAlignment="Center" HorizontalTextAlignment="Center"  />
+                                        </Grid>
+                                    </navigation:SfNavigationDrawer.DrawerHeaderView>
+
+                                    <navigation:SfNavigationDrawer.DrawerFooterView>
+                                        <Grid x:Name="FooterLayout" BackgroundColor="#1aa1d6" >
+                                            <Label x:Name="Footer"  Text="Footer View" FontSize="14" TextColor="White"  VerticalTextAlignment="Center" HorizontalTextAlignment="Center"  />
+                                        </Grid>
+                                    </navigation:SfNavigationDrawer.DrawerFooterView>
+
+                                    <navigation:SfNavigationDrawer.DrawerContentView>
+                                        <Grid x:Name="contentLayout" >
+                                            <Label x:Name="content"  Text="Content View" FontSize="14" TextColor="White"  VerticalTextAlignment="Center" HorizontalTextAlignment="Center"  />
+                                        </Grid>
+                                    </navigation:SfNavigationDrawer.DrawerContentView>
+             </navigation:SfNavigationDrawer>
+            <tabView:SfTabView OverflowMode="DropDown"
+                                   Margin="0,0,0,2" 
+                                   x:Name="simTab" 
+                                   TabHeight="55"                                   
+                                   TabHeaderPosition="Bottom"
+                                   DisplayMode="Image"
+                                   EnableSwiping="true"
+                                   VisibleHeaderCount="-1"
+                                   >
+
+
+
+
+
+                <tabView:SfTabView.SelectionIndicatorSettings>
+                    <tabView:SelectionIndicatorSettings Color="#CFCFCF"/>
+                </tabView:SfTabView.SelectionIndicatorSettings>
+
+
+
+                <tabView:SfTabView.Items>
+                    <tabView:SfTabItem FontIconFontSize="20"
+                                           IconFont="&#xE800;"
+                                           FontIconFontFamily="{StaticResource fontfamily}"
+                                           SelectionColor="#828282"
+                                           FontIconFontColor="#828282">
+                        <tabView:SfTabItem.Content>
+                            <Grid BackgroundColor="Bisque">
+                                <Label Text="POR"
+                                           FontSize="140"
+                                           HorizontalOptions="Center"
+                                           VerticalOptions="Center"/>
+                            </Grid>
+                        </tabView:SfTabItem.Content>
+                    </tabView:SfTabItem>
+
+
+                    <tabView:SfTabItem FontIconFontSize="Default"  
+                                           TitleFontSize="20"
+                                           IconFont="&#xE804;"
+                                           FontIconFontFamily="{StaticResource fontfamily}"
+                                           SelectionColor="#828282"
+                                           FontIconFontColor="#828282">
+                        <tabView:SfTabItem.Content>
+                            <Grid BackgroundColor="White">
+                                <Label Text="FIN"
+                                           FontSize="140"
+                                           HorizontalOptions="Center"
+                                           VerticalOptions="Center"/>
+                            </Grid>
+                        </tabView:SfTabItem.Content>
+                    </tabView:SfTabItem>
+
+
+                    <tabView:SfTabItem FontIconFontSize="30"  
+                                           TitleFontSize="40"
+                                           IconFont="&#xE806;"
+                                           FontIconFontFamily="{StaticResource fontfamily}"
+                                           SelectionColor="#964399"
+                                           FontIconFontColor="#964399">
+                        <tabView:SfTabItem.Content>
+                            <Grid BackgroundColor="White">
+                                <Label Text="FIN"
+                                           FontSize="140"
+                                           HorizontalOptions="Center"
+                                           VerticalOptions="Center"/>
+                            </Grid>
+                        </tabView:SfTabItem.Content>
+                    </tabView:SfTabItem>
+
+                    <tabView:SfTabItem FontIconFontSize="Default"    
+                                           TitleFontSize="20"
+                                           IconFont="&#xE801;"
+                                           FontIconFontFamily="{StaticResource fontfamily}"                                       
+                                           SelectionColor="#828282"
+                                           FontIconFontColor="#828282">
+                        <tabView:SfTabItem.Content>
+                            <Grid BackgroundColor="Bisque">
+                                <Label Text="VIDA"
+                                           FontSize="140"
+                                           HorizontalOptions="Center"
+                                           VerticalOptions="Center"/>
+                            </Grid>
+                        </tabView:SfTabItem.Content>
+                    </tabView:SfTabItem>
+
+
+                    <tabView:SfTabItem 
+                                           FontIconFontSize="Default"
+                                           TitleFontSize="20"
+                                           IconFont="&#xE803;"
+                                           FontIconFontFamily="{StaticResource fontfamily}"                                      
+                                           SelectionColor="#828282"
+                                           FontIconFontColor="#828282"
+                                         
+                   >
+                        <tabView:SfTabItem.Content>
+                            <Grid >
+                                <Button x:Name="bt" Text="Click" VerticalOptions="Center" HorizontalOptions="Center" ></Button>
+                                
+                                
+                            </Grid>
+                        </tabView:SfTabItem.Content>
+                    </tabView:SfTabItem>
+
+
+                </tabView:SfTabView.Items>
+            </tabView:SfTabView>
+        
+
+        </Grid>
+    </ContentPage.Content>
+
+</ContentPage>

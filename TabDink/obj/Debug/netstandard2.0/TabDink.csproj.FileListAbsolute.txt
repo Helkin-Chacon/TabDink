@@ -1,0 +1,14 @@
+C:\Users\HELKIN\source\repos\TabDink\TabDink\obj\Debug\netstandard2.0\TabDink.csprojAssemblyReference.cache
+C:\Users\HELKIN\source\repos\TabDink\TabDink\bin\Debug\netstandard2.0\TabDink.deps.json
+C:\Users\HELKIN\source\repos\TabDink\TabDink\bin\Debug\netstandard2.0\TabDink.dll
+C:\Users\HELKIN\source\repos\TabDink\TabDink\bin\Debug\netstandard2.0\ref\TabDink.dll
+C:\Users\HELKIN\source\repos\TabDink\TabDink\bin\Debug\netstandard2.0\TabDink.pdb
+C:\Users\HELKIN\source\repos\TabDink\TabDink\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\HELKIN\source\repos\TabDink\TabDink\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\HELKIN\source\repos\TabDink\TabDink\obj\Debug\netstandard2.0\TabDink.AssemblyInfoInputs.cache
+C:\Users\HELKIN\source\repos\TabDink\TabDink\obj\Debug\netstandard2.0\TabDink.AssemblyInfo.cs
+C:\Users\HELKIN\source\repos\TabDink\TabDink\obj\Debug\netstandard2.0\TabDink.csproj.CoreCompileInputs.cache
+C:\Users\HELKIN\source\repos\TabDink\TabDink\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\HELKIN\source\repos\TabDink\TabDink\obj\Debug\netstandard2.0\TabDink.dll
+C:\Users\HELKIN\source\repos\TabDink\TabDink\obj\Debug\netstandard2.0\ref\TabDink.dll
+C:\Users\HELKIN\source\repos\TabDink\TabDink\obj\Debug\netstandard2.0\TabDink.pdb

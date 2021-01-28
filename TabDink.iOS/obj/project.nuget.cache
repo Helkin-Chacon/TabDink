@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "7adYUFkY7Df+7YBZXvdES/zravRRSFpVW+c6a1HoWCZ5os1YBNY/Ph/YAjsnrTp1D/lTJRxgNO0LWYVXLpthRg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\HELKIN\\source\\repos\\TabDink\\TabDink.iOS\\TabDink.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\HELKIN\\.nuget\\packages\\syncfusion.licensing\\18.4.0.39\\syncfusion.licensing.18.4.0.39.nupkg.sha512",
+    "C:\\Users\\HELKIN\\.nuget\\packages\\syncfusion.xamarin.core\\18.4.0.39\\syncfusion.xamarin.core.18.4.0.39.nupkg.sha512",
+    "C:\\Users\\HELKIN\\.nuget\\packages\\syncfusion.xamarin.sfnavigationdrawer\\18.4.0.39\\syncfusion.xamarin.sfnavigationdrawer.18.4.0.39.nupkg.sha512",
+    "C:\\Users\\HELKIN\\.nuget\\packages\\syncfusion.xamarin.sftabview\\18.4.0.34\\syncfusion.xamarin.sftabview.18.4.0.34.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.8.0.1451\\xamarin.forms.4.8.0.1451.nupkg.sha512"
+  ],
+  "logs": []
+}
